@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-08-16 Sun 20:37 -->
+<!-- 2020-12-25 Fri 14:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Bookmarks</title>
@@ -193,12 +193,12 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+<link rel="stylesheet" type="text/css" href="https://letranger.github.io/org-html-themes/styles/purplereadtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://letranger.github.io/org-html-themes/styles/purplereadtheorg/css/readtheorg.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
 <script type="text/javascript">
 // @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
 <!--/*--><![CDATA[/*><!--*/
@@ -231,356 +231,571 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgea8957f">C/C++</a>
+<li><a href="#orgcf9d1a0">C/C++</a>
 <ul>
-<li><a href="#org1f19ea5">spacemacs org-mode配置GTD</a></li>
-<li><a href="#orge6fd5d9">新竹實驗中學C++程式語言教學講義&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">解題</span></span></a></li>
-<li><a href="#orge366b4b">競程筆記&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">解題</span></span></a></li>
-<li><a href="#org8a59e3f">SA HackMD <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-17 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="sa">sa</span>&#xa0;<span class="cpp">cpp</span></span></a></li>
-<li><a href="#org3e2dee6">c/c++ int 範圍的原因 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-17 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="int">int</span>&#xa0;<span class="cpp">cpp</span></span></a></li>
-<li><a href="#org6720930">C 語言入門 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="C">C</span></span></a></li>
-<li><a href="#org52dc0d7">C++ 競程入門 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-14 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="c">c</span></span></a></li>
-<li><a href="#org1669e15">STL <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-14 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="STL">STL</span>&#xa0;<span class="c">c</span></span></a></li>
+<li><a href="#orgdbb443a">spacemacs org-mode配置GTD</a></li>
+<li><a href="#org95bc832">新竹實驗中學C++程式語言教學講義&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">解題</span></span></a></li>
+<li><a href="#org2850d7d">競程筆記&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">解題</span></span></a></li>
+<li><a href="#orgf9cab07">SA HackMD <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-17 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="sa">sa</span>&#xa0;<span class="cpp">cpp</span></span></a></li>
+<li><a href="#org50dac5f">c/c++ int 範圍的原因 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-17 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="int">int</span>&#xa0;<span class="cpp">cpp</span></span></a></li>
+<li><a href="#org09c8e65">C 語言入門 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="C">C</span></span></a></li>
+<li><a href="#orgaeb984b">C++ 競程入門 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-14 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="c">c</span></span></a></li>
+<li><a href="#orgf846e36">STL <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-14 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="STL">STL</span>&#xa0;<span class="c">c</span></span></a></li>
+<li><a href="#org42072aa">[C語言]程式設計教學 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-20 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="C">C</span>&#xa0;<span class="C">C</span></span></a></li>
+<li><a href="#org9604727">[C++程式設計] 學習筆記─容器 vector的使用(二維陣列與二維串列) <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="STL">STL</span>&#xa0;<span class="vector">vector</span></span></a></li>
+<li><a href="#org0de68c5">e155: 10935 - Throwing cards away I <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="UVa">UVa</span></span></a></li>
+<li><a href="#org99e9921">Online Judge <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="online">online</span>&#xa0;<span class="Judge">Judge</span></span></a></li>
+<li><a href="#org085f398">VisuAlgo.net <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-20 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="algorithm">algorithm</span></span></a></li>
+<li><a href="#org06b08df">Recursion Practice Problems with Solutions <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-19 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="recursion">recursion</span>&#xa0;<span class="problems">problems</span></span></a></li>
+<li><a href="#orgd0255f8">程設問題分析整理 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-19 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="data">data</span>&#xa0;<span class="structure">structure</span>&#xa0;<span class="algorithm">algorithm</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org5466370">SWIFT</a>
+<li><a href="#org9fa4803">SWIFT</a>
 <ul>
-<li><a href="#orge947cf8">How to Make an App for Beginners <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="begineer">begineer</span></span></a></li>
-<li><a href="#orgf988f74">Firebase Authentication Tutorial 2020 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firebase">firebase</span></span></a></li>
-<li><a href="#org0e6abc6">The 7 Day App Action Plan <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="7">7</span>&#xa0;<span class="day">day</span></span></a></li>
-<li><a href="#org522cf3a">Simple Text Chat App using Firebase in Swift 5 - MessageKit <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-28 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="MessageKit">MessageKit</span>&#xa0;<span class="SWIFT">SWIFT</span>&#xa0;<span class="Firebase">Firebase</span></span></a></li>
-<li><a href="#org6ea8ebe">Move view when keyboard is shown (guide) <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-29 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="keyboard">keyboard</span></span></a></li>
-<li><a href="#orgfb2ddbc">Update user&rsquo;s profile on firestore <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firestore">firestore</span>&#xa0;<span class="profile">profile</span></span></a></li>
-<li><a href="#org417503f">iOS Chat Tutorial: Building A Realtime Messaging App <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="chat">chat</span>&#xa0;<span class="swift">swift</span></span></a></li>
-<li><a href="#orgd012921">Build an App Like Lego — Tutorial 13 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swift">swift</span>&#xa0;<span class="chat">chat</span></span></a></li>
-<li><a href="#orgb921d80">SWIFTUI <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-22 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swiftui">swiftui</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="siwft">siwft</span></span></a></li>
+<li><a href="#org6958837">How to Make an App for Beginners <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="begineer">begineer</span></span></a></li>
+<li><a href="#orgd6fd05a">Firebase Authentication Tutorial 2020 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firebase">firebase</span></span></a></li>
+<li><a href="#org0bd0e83">The 7 Day App Action Plan <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="7">7</span>&#xa0;<span class="day">day</span></span></a></li>
+<li><a href="#org150b9b8">Simple Text Chat App using Firebase in Swift 5 - MessageKit <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-28 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="MessageKit">MessageKit</span>&#xa0;<span class="SWIFT">SWIFT</span>&#xa0;<span class="Firebase">Firebase</span></span></a></li>
+<li><a href="#orgcff61e2">Move view when keyboard is shown (guide) <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-29 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="keyboard">keyboard</span></span></a></li>
+<li><a href="#orgf389ff6">Update user&rsquo;s profile on firestore <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firestore">firestore</span>&#xa0;<span class="profile">profile</span></span></a></li>
+<li><a href="#org4890d2d">iOS Chat Tutorial: Building A Realtime Messaging App <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="chat">chat</span>&#xa0;<span class="swift">swift</span></span></a></li>
+<li><a href="#org37ada74">Build an App Like Lego — Tutorial 13 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swift">swift</span>&#xa0;<span class="chat">chat</span></span></a></li>
+<li><a href="#org707a732">SWIFTUI <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-22 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swiftui">swiftui</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="siwft">siwft</span></span></a></li>
+<li><a href="#org072c8d5">https://www.hackingwithswift.com/100/swiftui <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></a></li>
+<li><a href="#orga94aea9">Swift Developer Blog <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></a></li>
+<li><a href="#org0e42cd7">Swift Programming Tutorial for Beginners (Full Tutorial) <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></a></li>
+<li><a href="#org2cf8644">Your First SwiftUI App (Full Compilation!) <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></a></li>
+<li><a href="#org4d1af6f">Lecture 1: Course Logistics and Introduction to SwiftUI <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></a></li>
+<li><a href="#orga59ba52">SwiftUI Live: Building an app from scratch <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></a></li>
+<li><a href="#org4ebb7ed">Swift — 說說 Codable （ Decodable &amp; Encodable） <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-07 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Codable">Codable</span>&#xa0;<span class="Swift">Swift</span></span></a></li>
+<li><a href="#org53c1c4c">SwiftUI MVVM Programming with ObservableObject @Published @ObservedObject&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span>&#xa0;<span class="MVVM">MVVM</span></span></a></li>
+<li><a href="#org6c16740">Intro : SwiftUI MVVM iOS App: Part 1&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span>&#xa0;<span class="MVVM">MVVM</span></span></a></li>
+<li><a href="#org32f93af">Swift NYC 2019 - Getting Started with Combine&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Swift">Swift</span>&#xa0;<span class="Combine">Combine</span></span></a></li>
+<li><a href="#org3a3af97">iOS 13 Swift Tutorial: Understand Swift UI, Property Wrapper &amp; More&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_State">@State</span>&#xa0;<span class="_EnvironmentOjbect">@EnvironmentOjbect</span></span></a></li>
+<li><a href="#org7161bb2">SwiftUI Tutorial: What&rsquo;s the difference between @State, @ObjectBinding, and @EnvironmentObject?</a></li>
+<li><a href="#org09acff7">Swift 编程语言 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-28 Mon&gt;</span></span></a></li>
+<li><a href="#org99f9f0c">SwiftUI Starter Project</a></li>
+<li><a href="#orgc400d93">Hacking with Swift <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Hacking">Hacking</span></span></a></li>
+<li><a href="#org6859ba7">SwiftUI by Example <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-05 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Example">Example</span></span></a></li>
+<li><a href="#org86fb81a">SwiftUI Cart Page UI With Custom Swipe To Delete Action - Complex UI - SwiftUI 2.0 Tutorials <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-12 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="MVVM">MVVM</span></span></a></li>
+<li><a href="#orgcf0045e">Passing Data from Modal to Parent in SwiftUI <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-25 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_binding">@binding</span></span></a></li>
+<li><a href="#org171656d">Simple Swift Guide <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-11-12 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swift">swift</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org9b64f46">Python</a>
+<li><a href="#org8dd8ae7">Python</a>
 <ul>
-<li><a href="#orga255d43">實用但常忘記的Pandas Dataframe常用指令 1 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Pandas">Pandas</span></span></a></li>
-<li><a href="#org14ee53a">Learn Python - Full Course for Beginners [Tutorial] <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="begineer">begineer</span>&#xa0;<span class="video">video</span></span></a></li>
-<li><a href="#org98e028e">Python v.s. Firestore <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-27 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firebase">firebase</span>&#xa0;<span class="firestore">firestore</span></span></a></li>
-<li><a href="#org3de4fad">PythonProgrammingInEmacs <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="python">python</span></span></a></li>
-<li><a href="#org3bdd63e">Emacs 下使用 lsp-mode 對 Python 進行補全 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="python">python</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="lsp">lsp</span>&#xa0;<span class="mode">mode</span></span></a></li>
-<li><a href="#org9afc49c">【Python】使用 PyInstaller 將 Python打包成 exe 檔 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="PyInstaller">PyInstaller</span>&#xa0;<span class="exe">exe</span></span></a></li>
-<li><a href="#org74693dc">如何使用 Python 進行字串格式化 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-05 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="print">print</span>&#xa0;<span class="format">format</span>&#xa0;<span class="string">string</span></span></a></li>
-<li><a href="#org5ceb769">Python 3 in 1 Hour <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span></a></li>
-<li><a href="#org1a89a4f">https://www.youtube.com/watch?v=0pWJHy<sub>fNWA</sub> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="scrapy">scrapy</span></span></a></li>
-<li><a href="#org0eb277d">[Selenium] 如何使用 Selenium 自動下載漫畫 (1)? <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="selenium">selenium</span></span></a></li>
-<li><a href="#orge864926">[Scrapy 爬蟲] 如何撰寫第一支Scrapy 爬蟲以抓取蘋果即時新聞? <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="scrapy">scrapy</span></span></a></li>
-<li><a href="#orgb8278d7">70個NumPy分級練習：用Python一舉搞定機器學習矩陣運算 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-17 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="numpy">numpy</span></span></a></li>
-<li><a href="#orga9f2aa0">How To transpose specific columns into rows in pandas associate other column value <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-23 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="transform">transform</span>&#xa0;<span class="melt">melt</span></span></a></li>
-<li><a href="#orgc796c9e">Python Documentation contents <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-13 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Python">Python</span>&#xa0;<span class="__">教材</span></span></a></li>
+<li><a href="#org90b5386">實用但常忘記的Pandas Dataframe常用指令 1 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Pandas">Pandas</span></span></a></li>
+<li><a href="#org447a118">Learn Python - Full Course for Beginners [Tutorial] <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="begineer">begineer</span>&#xa0;<span class="video">video</span></span></a></li>
+<li><a href="#orgbd99cc8">Python v.s. Firestore <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-27 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firebase">firebase</span>&#xa0;<span class="firestore">firestore</span></span></a></li>
+<li><a href="#org6b54b17">PythonProgrammingInEmacs <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="python">python</span></span></a></li>
+<li><a href="#org608bf11">Emacs 下使用 lsp-mode 對 Python 進行補全 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="python">python</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="lsp">lsp</span>&#xa0;<span class="mode">mode</span></span></a></li>
+<li><a href="#org618b730">【Python】使用 PyInstaller 將 Python打包成 exe 檔 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="PyInstaller">PyInstaller</span>&#xa0;<span class="exe">exe</span></span></a></li>
+<li><a href="#org99346e6">如何使用 Python 進行字串格式化 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-05 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="print">print</span>&#xa0;<span class="format">format</span>&#xa0;<span class="string">string</span></span></a></li>
+<li><a href="#orgcb73dbd">Python 3 in 1 Hour <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span></a></li>
+<li><a href="#orgddeeda2">https://www.youtube.com/watch?v=0pWJHy<sub>fNWA</sub> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="scrapy">scrapy</span></span></a></li>
+<li><a href="#orge2f9968">[Selenium] 如何使用 Selenium 自動下載漫畫 (1)? <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="selenium">selenium</span></span></a></li>
+<li><a href="#orga4fa18e">[Scrapy 爬蟲] 如何撰寫第一支Scrapy 爬蟲以抓取蘋果即時新聞? <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="scrapy">scrapy</span></span></a></li>
+<li><a href="#org48464f7">70個NumPy分級練習：用Python一舉搞定機器學習矩陣運算 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-17 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="numpy">numpy</span></span></a></li>
+<li><a href="#org2f23475">How To transpose specific columns into rows in pandas associate other column value <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-23 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="transform">transform</span>&#xa0;<span class="melt">melt</span></span></a></li>
+<li><a href="#org70a551f">Python Documentation contents <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-13 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Python">Python</span>&#xa0;<span class="__">教材</span></span></a></li>
+<li><a href="#org566af7d">Python 初學第一講 — 變數與基本運算 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Python">Python</span>&#xa0;<span class="instruction">instruction</span></span></a></li>
+<li><a href="#orgcc190e0">通訊雜記 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-20 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="blog">blog</span></span></a></li>
+<li><a href="#orgfd809c9">Python Exercises <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-20 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="exercises">exercises</span></span></a></li>
+<li><a href="#org69bbf24">Tutorial Moodle VPL Gremlins &#x2013; Python <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-23 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="VPL">VPL</span></span></a></li>
+<li><a href="#org6453695">Python Tutorial: if <span class="underline"><span class="underline">name</span></span> == &rsquo;<span class="underline"><span class="underline">main</span></span>&rsquo; <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-10 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__main__">__main__</span></span></a></li>
+<li><a href="#orgefa5c9a"> OJ上如何讀測資的教學?  <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-17 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="test">test</span>&#xa0;<span class="case">case</span></span></a></li>
+<li><a href="#orgd46bd9a">pytube中有一个错误 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-29 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pytub">pytub</span>&#xa0;<span class="youtube">youtube</span>&#xa0;<span class="video">video</span>&#xa0;<span class="download">download</span></span></a></li>
+<li><a href="#orgf748b46">Youtube Crawler with Python <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-29 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Youtube">Youtube</span>&#xa0;<span class="crawler">crawler</span>&#xa0;<span class="python">python</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orga6dbdbd">R</a>
+<li><a href="#orgfaa0608">R</a>
 <ul>
-<li><a href="#org53c859f">Performing Bartlett’s test in R  <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-11 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Bartlett">Bartlett</span>&#xa0;<span class="s">s</span>&#xa0;<span class="test">test</span></span></a></li>
-<li><a href="#org9e37a74">量化研究與統計分析：SPSS與R資料分析範例解析 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="psychometric">psychometric</span>&#xa0;<span class="____">項目分析</span>&#xa0;<span class="_______">題目與總分相關</span></span></a></li>
-<li><a href="#org461c0f3">Item Analysis <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="psych">psych</span>&#xa0;<span class="item">item</span></span></a></li>
-<li><a href="#org24f827c">Factor Analysis <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-13 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Factor">Factor</span>&#xa0;<span class="Analysis">Analysis</span></span></a></li>
+<li><a href="#orgdfad3f4">Performing Bartlett’s test in R  <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-11 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Bartlett">Bartlett</span>&#xa0;<span class="s">s</span>&#xa0;<span class="test">test</span></span></a></li>
+<li><a href="#orgb565175">量化研究與統計分析：SPSS與R資料分析範例解析 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="psychometric">psychometric</span>&#xa0;<span class="____">項目分析</span>&#xa0;<span class="_______">題目與總分相關</span></span></a></li>
+<li><a href="#orgf70c1a4">Item Analysis <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="psych">psych</span>&#xa0;<span class="item">item</span></span></a></li>
+<li><a href="#org5d93b64">Factor Analysis <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-13 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Factor">Factor</span>&#xa0;<span class="Analysis">Analysis</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org370a008">Emacs</a>
+<li><a href="#org580368f">Emacs</a>
 <ul>
-<li><a href="#orgafc35de">spacemacs org-mode配置GTD <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:03&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="GTD">GTD</span></span></a></li>
-<li><a href="#org62633f9">Emacs org capture的啟用設定 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:07&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="capture">capture</span></span></a></li>
-<li><a href="#org5297beb">My Doom Emacs config <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:26&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="config">config</span></span></a></li>
-<li><a href="#orgad791ac">Doom Emacs tweaks: Org Journal and Super Agenda <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-09 Thu 08:53&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Super">Super</span>&#xa0;<span class="Agenda">Agenda</span></span></a></li>
-<li><a href="#orge5391c6">emacs scroll other window up <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-09 Thu 09:05&gt;</span></span></a></li>
-<li><a href="#org1e21831">Doom Emacs config.el - nmartin84  <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 10:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="config">config</span>&#xa0;<span class="doom">doom</span>&#xa0;<span class="emacs">emacs</span></span></a></li>
-<li><a href="#org4c40b8a">如何利用Emacs進行個人時間管理(GTD) <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 11:04&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="GTD">GTD</span>&#xa0;<span class="agenda">agenda</span></span></a></li>
-<li><a href="#org9cab0b5">神之編輯器 &#x2013; Emacs <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 13:24&gt;</span></span></a></li>
-<li><a href="#orgfedf01c">Org-roam <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-11 Sat 14:38&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="roam">roam</span></span></a></li>
-<li><a href="#orgf083fc6">Organizing Notes With Refile <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-11 Sat 14:41&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="refile">refile</span></span></a></li>
-<li><a href="#org59eaaff">Configuring Doom emacs, mbsync, and mu4e for use with o365 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 20:00&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
-<li><a href="#org12450cd">https://www.junahan.com/post/emacs-mu4e/ <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 21:38&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
-<li><a href="#org8e7c6a2">使用Org Mode管理日常任務  <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 21:41&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="gtd">gtd</span></span></a></li>
-<li><a href="#orgae65c96">Using mu4e <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-13 Mon 23:07&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
-<li><a href="#orgc1c1484">org-refile 时怎么改变 TODO 状态？ <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 16:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span>&#xa0;<span class="refile">refile</span>&#xa0;<span class="emacs">emacs</span></span></a></li>
-<li><a href="#orgb770593">Emacs和Vim：神的編輯器和編輯器之神 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 18:17&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="vi">vi</span></span></a></li>
-<li><a href="#org5e2b34d">6 things you should be doing with Emacs <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 18:17&gt;</span></span></a></li>
-<li><a href="#orgea35f9c">live-py mode <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-03 Sun 17:19&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="python">python</span>&#xa0;<span class="live">live</span>&#xa0;<span class="py">py</span></span></a></li>
-<li><a href="#orgef0d47e">Emacs: Spell Checking <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-09 Sat 18:00&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="flyspell">flyspell</span></span></a></li>
-<li><a href="#orge2954db">jdormit init.el reference <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-13 Wed 22:59&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="doom">doom</span></span></a></li>
-<li><a href="#org5e75a63">Org-roam-bibtex - Quick Presentation <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-24 Sun 22:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span>&#xa0;<span class="roam">roam</span></span></a></li>
-<li><a href="#orgc34fec0">EOS: Emacs Appearance <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-31 Sun 16:32&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="appearance">appearance</span></span></a></li>
-<li><a href="#org077dfad">hlissner&rsquo;s Doom Emacs config <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-01 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="hlissner">hlissner</span>&#xa0;<span class="doom">doom</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="config">config</span></span></a></li>
-<li><a href="#orgd0e2097">Orgmode for GTD <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-14 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="refile">refile</span>&#xa0;<span class="orgmode">orgmode</span></span></a></li>
-<li><a href="#org6462998">Org Mode - Organize Your Life In Plain Text! <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-14 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span></span></a></li>
-<li><a href="#orga618e05">Fira Code <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-25 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="code">code</span>&#xa0;<span class="font">font</span>&#xa0;<span class="emacs">emacs</span></span></a></li>
-<li><a href="#org43eda91">mu4e救你出Email的苦海 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-29 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
-<li><a href="#org4c652a8">使用gmail imap配置gnus <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-29 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
-<li><a href="#org848f8a3">Multiple Cursor editing in Emacs <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-01 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Multiple">Multiple</span>&#xa0;<span class="Cursor">Cursor</span>&#xa0;<span class="mc">mc</span></span></a></li>
-<li><a href="#orgefed0b6">一年成為Emacs高手(像神一樣使用編輯器) <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-16 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="God">God</span></span></a></li>
+<li><a href="#org969b9d7">spacemacs org-mode配置GTD <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:03&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="GTD">GTD</span></span></a></li>
+<li><a href="#orgd6622e5">Emacs org capture的啟用設定 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:07&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="capture">capture</span></span></a></li>
+<li><a href="#org63cec1d">My Doom Emacs config <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:26&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="config">config</span></span></a></li>
+<li><a href="#orgfe83ae4">Doom Emacs tweaks: Org Journal and Super Agenda <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-09 Thu 08:53&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Super">Super</span>&#xa0;<span class="Agenda">Agenda</span></span></a></li>
+<li><a href="#org9ae27c4">emacs scroll other window up <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-09 Thu 09:05&gt;</span></span></a></li>
+<li><a href="#org9c20371">Doom Emacs config.el - nmartin84  <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 10:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="config">config</span>&#xa0;<span class="doom">doom</span>&#xa0;<span class="emacs">emacs</span></span></a></li>
+<li><a href="#org4d5eee0">如何利用Emacs進行個人時間管理(GTD) <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 11:04&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="GTD">GTD</span>&#xa0;<span class="agenda">agenda</span></span></a></li>
+<li><a href="#org323f027">神之編輯器 &#x2013; Emacs <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 13:24&gt;</span></span></a></li>
+<li><a href="#orgf560af2">Org-roam <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-11 Sat 14:38&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="roam">roam</span></span></a></li>
+<li><a href="#orgba7d3d6">Organizing Notes With Refile <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-11 Sat 14:41&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="refile">refile</span></span></a></li>
+<li><a href="#org8fd28d7">Configuring Doom emacs, mbsync, and mu4e for use with o365 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 20:00&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
+<li><a href="#org4bca37d">https://www.junahan.com/post/emacs-mu4e/ <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 21:38&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
+<li><a href="#org4e16d72">使用Org Mode管理日常任務  <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 21:41&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="gtd">gtd</span></span></a></li>
+<li><a href="#org81c7612">Using mu4e <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-13 Mon 23:07&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
+<li><a href="#orge2901fa">org-refile 时怎么改变 TODO 状态？ <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 16:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span>&#xa0;<span class="refile">refile</span>&#xa0;<span class="emacs">emacs</span></span></a></li>
+<li><a href="#org703afcf">Emacs和Vim：神的編輯器和編輯器之神 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 18:17&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="vi">vi</span></span></a></li>
+<li><a href="#org03eb727">6 things you should be doing with Emacs <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 18:17&gt;</span></span></a></li>
+<li><a href="#orgf5c8d88">live-py mode <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-03 Sun 17:19&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="python">python</span>&#xa0;<span class="live">live</span>&#xa0;<span class="py">py</span></span></a></li>
+<li><a href="#org39550ef">Emacs: Spell Checking <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-09 Sat 18:00&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="flyspell">flyspell</span></span></a></li>
+<li><a href="#org3e49ae8">jdormit init.el reference <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-13 Wed 22:59&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="doom">doom</span></span></a></li>
+<li><a href="#org97468e5">Org-roam-bibtex - Quick Presentation <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-24 Sun 22:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span>&#xa0;<span class="roam">roam</span></span></a></li>
+<li><a href="#org774c233">EOS: Emacs Appearance <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-31 Sun 16:32&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="appearance">appearance</span></span></a></li>
+<li><a href="#orgf264831">hlissner&rsquo;s Doom Emacs config <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-01 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="hlissner">hlissner</span>&#xa0;<span class="doom">doom</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="config">config</span></span></a></li>
+<li><a href="#orgd926729">Orgmode for GTD <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-14 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="refile">refile</span>&#xa0;<span class="orgmode">orgmode</span></span></a></li>
+<li><a href="#org8766952">Org Mode - Organize Your Life In Plain Text! <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-14 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span></span></a></li>
+<li><a href="#org1a1d136">Fira Code <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-25 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="code">code</span>&#xa0;<span class="font">font</span>&#xa0;<span class="emacs">emacs</span></span></a></li>
+<li><a href="#org467ec69">mu4e救你出Email的苦海 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-29 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
+<li><a href="#orgc2eb88f">使用gmail imap配置gnus <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-29 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></a></li>
+<li><a href="#orgb6acced">Multiple Cursor editing in Emacs <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-01 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Multiple">Multiple</span>&#xa0;<span class="Cursor">Cursor</span>&#xa0;<span class="mc">mc</span></span></a></li>
+<li><a href="#org2e1a2eb">一年成為Emacs高手(像神一樣使用編輯器) <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-16 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="God">God</span></span></a></li>
+<li><a href="#orgea43ed7">Emacs: How to delete a line starting with specific text <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-16 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="flush">flush</span>&#xa0;<span class="lines">lines</span></span></a></li>
+<li><a href="#orge545cf4">Beacon - Never lose your cursor again <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-20 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Beacon">Beacon</span></span></a></li>
+<li><a href="#orgaca8fc2">tecosaur / emacs-config  <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Doom">Doom</span>&#xa0;<span class="configuration">configuration</span></span></a></li>
+<li><a href="#org3833826">Doom Emacs COnfiguration <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Doom">Doom</span>&#xa0;<span class="configuration">configuration</span></span></a></li>
+<li><a href="#orge773c69">Doom Emacs故障排除 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-05 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="doom">doom</span>&#xa0;<span class="error">error</span>&#xa0;<span class="upgrade">upgrade</span></span></a></li>
+<li><a href="#org44241f1">[[https://emacs-china.org/t/emacs-c-x-c-f/11972][</a></li>
+<li><a href="#org6be6929">使用 emacs org-mode 畫圖 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-10 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ditaa">ditaa</span></span></a></li>
+<li><a href="#org4617e94">使用 emacs org-mode 画图 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-10 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ditaa">ditaa</span>&#xa0;<span class="graphviz">graphviz</span></span></a></li>
+<li><a href="#org3fd9731">Pragmatic Emacs <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-14 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Pragmatic">Pragmatic</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org7a5453e">Research</a>
+<li><a href="#orgc8241a9">Research</a>
 <ul>
-<li><a href="#orga35ddc6">How To Take Smart Notes With Org-mode <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notes">notes</span></span></a></li>
-<li><a href="#org0d984df">GTD 實踐方法 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="gtd">gtd</span>&#xa0;<span class="refile">refile</span></span></a></li>
-<li><a href="#orgcdbc7e5">相關係數之介紹 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="coefficient">coefficient</span>&#xa0;<span class="of">of</span>&#xa0;<span class="correlation">correlation</span>&#xa0;<span class="Pearson">Pearson</span>&#xa0;<span class="Spearman">Spearman</span></span></a></li>
+<li><a href="#orgb6816f0">How To Take Smart Notes With Org-mode <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notes">notes</span></span></a></li>
+<li><a href="#org9cd2736">GTD 實踐方法 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="gtd">gtd</span>&#xa0;<span class="refile">refile</span></span></a></li>
+<li><a href="#org1da367b">相關係數之介紹 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="coefficient">coefficient</span>&#xa0;<span class="of">of</span>&#xa0;<span class="correlation">correlation</span>&#xa0;<span class="Pearson">Pearson</span>&#xa0;<span class="Spearman">Spearman</span></span></a></li>
+<li><a href="#orga1e9197">Remarkable 2 vs Onyx Boox Note Air <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-16 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="eInk">eInk</span></span></a></li>
+<li><a href="#orgb0dc670">Obsidian 教學 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-29 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Obsidian">Obsidian</span>&#xa0;<span class="notes">notes</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orgb6ff9ad">Nets</a>
+<li><a href="#org4cc3fa9">Nets</a>
 <ul>
-<li><a href="#org9449df1">掌舵Kubernetes（一）：如何起步？ <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Kubernetes">Kubernetes</span></span></a></li>
-<li><a href="#org066cd9d">Kubernetes 基礎教學（一）原理介紹 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Kubernetes">Kubernetes</span></span></a></li>
+<li><a href="#org7d2130f">掌舵Kubernetes（一）：如何起步？ <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Kubernetes">Kubernetes</span></span></a></li>
+<li><a href="#org6ea73ec">Kubernetes 基礎教學（一）原理介紹 <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Kubernetes">Kubernetes</span></span></a></li>
+<li><a href="#orgf7625ce">Packaging and Deploying the macOS Installer <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-27 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TNFSH">TNFSH</span>&#xa0;<span class="jamf">jamf</span>&#xa0;<span class="macos">macos</span></span></a></li>
+<li><a href="#org2f4d973">Deploying Wallpaper to Computers <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-01 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Jamf">Jamf</span>&#xa0;<span class="Wallpaper">Wallpaper</span>&#xa0;<span class="TNFSH">TNFSH</span></span></a></li>
+<li><a href="#org2044e8b">Apache 2.2/2.4 效能調校 #01 Worker MPM  <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-11 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="MPM">MPM</span>&#xa0;<span class="Apache">Apache</span></span></a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgea8957f" class="outline-2">
-<h2 id="orgea8957f">C/C++</h2>
-<div class="outline-text-2" id="text-orgea8957f">
+<div id="outline-container-orgcf9d1a0" class="outline-2">
+<h2 id="orgcf9d1a0">C/C++</h2>
+<div class="outline-text-2" id="text-orgcf9d1a0">
 </div>
-<div id="outline-container-org1f19ea5" class="outline-3">
-<h3 id="org1f19ea5"><a href="https://blog.csdn.net/u011729865/article/details/54236547">spacemacs org-mode配置GTD</a></h3>
+<div id="outline-container-orgdbb443a" class="outline-3">
+<h3 id="orgdbb443a"><a href="https://blog.csdn.net/u011729865/article/details/54236547">spacemacs org-mode配置GTD</a></h3>
 </div>
-<div id="outline-container-orge6fd5d9" class="outline-3">
-<h3 id="orge6fd5d9"><a href="https://hackmd.io/@qR5cY2d3Ql2AdYtLfHFxVg/B18yT_i5Z?type=view">新竹實驗中學C++程式語言教學講義</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">解題</span></span></h3>
+<div id="outline-container-org95bc832" class="outline-3">
+<h3 id="org95bc832"><a href="https://hackmd.io/@qR5cY2d3Ql2AdYtLfHFxVg/B18yT_i5Z?type=view">新竹實驗中學C++程式語言教學講義</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">解題</span></span></h3>
 </div>
-<div id="outline-container-orge366b4b" class="outline-3">
-<h3 id="orge366b4b"><a href="https://hackmd.io/@wiwiho/cp-note/%2F%40wiwiho%2FryjHQtWLH?fbclid=IwAR2y8IpmY47jqTloIRUBpUwErlVAtDiz1XCNp_ZPidnCpeM4RjR4vfPtEgs">競程筆記</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">解題</span></span></h3>
+<div id="outline-container-org2850d7d" class="outline-3">
+<h3 id="org2850d7d"><a href="https://hackmd.io/@wiwiho/cp-note/%2F%40wiwiho%2FryjHQtWLH?fbclid=IwAR2y8IpmY47jqTloIRUBpUwErlVAtDiz1XCNp_ZPidnCpeM4RjR4vfPtEgs">競程筆記</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">解題</span></span></h3>
 </div>
-<div id="outline-container-org8a59e3f" class="outline-3">
-<h3 id="org8a59e3f"><a href="https://hackmd.io/@sa072686?page=1&amp;sort=z-to-a">SA HackMD</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-17 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="sa">sa</span>&#xa0;<span class="cpp">cpp</span></span></h3>
+<div id="outline-container-orgf9cab07" class="outline-3">
+<h3 id="orgf9cab07"><a href="https://hackmd.io/@sa072686?page=1&amp;sort=z-to-a">SA HackMD</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-17 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="sa">sa</span>&#xa0;<span class="cpp">cpp</span></span></h3>
 </div>
-<div id="outline-container-org3e2dee6" class="outline-3">
-<h3 id="org3e2dee6"><a href="https://www.itread01.com/content/1557777425.html">c/c++ int 範圍的原因</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-17 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="int">int</span>&#xa0;<span class="cpp">cpp</span></span></h3>
+<div id="outline-container-org50dac5f" class="outline-3">
+<h3 id="org50dac5f"><a href="https://www.itread01.com/content/1557777425.html">c/c++ int 範圍的原因</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-17 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="int">int</span>&#xa0;<span class="cpp">cpp</span></span></h3>
 </div>
-<div id="outline-container-org6720930" class="outline-3">
-<h3 id="org6720930"><a href="https://feis.studio/?fbclid=IwAR3AfleM4aXOFn2KPsF0tmjgQqO2ppFTbPJuCcJ5IcGdEHcSflwjeYqzmlM#/c">C 語言入門</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="C">C</span></span></h3>
+<div id="outline-container-org09c8e65" class="outline-3">
+<h3 id="org09c8e65"><a href="https://feis.studio/?fbclid=IwAR3AfleM4aXOFn2KPsF0tmjgQqO2ppFTbPJuCcJ5IcGdEHcSflwjeYqzmlM#/c">C 語言入門</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="C">C</span></span></h3>
 </div>
-<div id="outline-container-org52dc0d7" class="outline-3">
-<h3 id="org52dc0d7"><a href="https://hackmd.io/@sa072686/cpp_probsolve/%2FWITK8cshQg-mQMarg8umMg">C++ 競程入門</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-14 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="c">c</span></span></h3>
+<div id="outline-container-orgaeb984b" class="outline-3">
+<h3 id="orgaeb984b"><a href="https://hackmd.io/@sa072686/cpp_probsolve/%2FWITK8cshQg-mQMarg8umMg">C++ 競程入門</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-14 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="c">c</span></span></h3>
 </div>
-<div id="outline-container-org1669e15" class="outline-3">
-<h3 id="org1669e15"><a href="https://hackmd.io/@sa072686/20TT_STL">STL</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-14 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="STL">STL</span>&#xa0;<span class="c">c</span></span></h3>
+<div id="outline-container-orgf846e36" class="outline-3">
+<h3 id="orgf846e36"><a href="https://hackmd.io/@sa072686/20TT_STL">STL</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-14 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="STL">STL</span>&#xa0;<span class="c">c</span></span></h3>
 </div>
+<div id="outline-container-org42072aa" class="outline-3">
+<h3 id="org42072aa"><a href="https://michaelchen.tech/c-programming/">[C語言]程式設計教學</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-20 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="C">C</span>&#xa0;<span class="C">C</span></span></h3>
 </div>
-<div id="outline-container-org5466370" class="outline-2">
-<h2 id="org5466370">SWIFT</h2>
-<div class="outline-text-2" id="text-org5466370">
+<div id="outline-container-org9604727" class="outline-3">
+<h3 id="org9604727"><a href="https://ramihaha.tw/c-program-container-vector-array-linklist/">[C++程式設計] 學習筆記─容器 vector的使用(二維陣列與二維串列)</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="STL">STL</span>&#xa0;<span class="vector">vector</span></span></h3>
 </div>
-<div id="outline-container-orge947cf8" class="outline-3">
-<h3 id="orge947cf8"><a href="https://www.youtube.com/watch?v=jniJeamcIUU">How to Make an App for Beginners</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="begineer">begineer</span></span></h3>
+<div id="outline-container-org0de68c5" class="outline-3">
+<h3 id="org0de68c5"><a href="https://zerojudge.tw/ShowProblem?problemid=e155">e155: 10935 - Throwing cards away I</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="UVa">UVa</span></span></h3>
 </div>
-<div id="outline-container-orgf988f74" class="outline-3">
-<h3 id="orgf988f74"><a href="https://www.youtube.com/watch?v=1HN7usMROt8">Firebase Authentication Tutorial 2020</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firebase">firebase</span></span></h3>
+<div id="outline-container-org99e9921" class="outline-3">
+<h3 id="org99e9921"><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=23&amp;page=show_problem&amp;problem=2133">Online Judge</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="online">online</span>&#xa0;<span class="Judge">Judge</span></span></h3>
 </div>
-<div id="outline-container-org0e6abc6" class="outline-3">
-<h3 id="org0e6abc6"><a href="https://codewithchris.com/actionplan/?utm_source=youtube&amp;utm_medium=desc&amp;utm_campaign=firebaseauth">The 7 Day App Action Plan</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="7">7</span>&#xa0;<span class="day">day</span></span></h3>
+<div id="outline-container-org085f398" class="outline-3">
+<h3 id="org085f398"><a href="https://visualgo.net/en">VisuAlgo.net</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-20 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="algorithm">algorithm</span></span></h3>
 </div>
-<div id="outline-container-org522cf3a" class="outline-3">
-<h3 id="org522cf3a"><a href="https://medium.com/@ibjects/simple-text-chat-app-using-firebase-in-swift-5-b9fa91730b6c">Simple Text Chat App using Firebase in Swift 5 - MessageKit</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-28 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="MessageKit">MessageKit</span>&#xa0;<span class="SWIFT">SWIFT</span>&#xa0;<span class="Firebase">Firebase</span></span></h3>
+<div id="outline-container-org06b08df" class="outline-3">
+<h3 id="org06b08df"><a href="https://www.techiedelight.com/recursion-practice-problems-with-solutions/">Recursion Practice Problems with Solutions</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-19 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="recursion">recursion</span>&#xa0;<span class="problems">problems</span></span></h3>
 </div>
-<div id="outline-container-org6ea8ebe" class="outline-3">
-<h3 id="org6ea8ebe"><a href="https://fluffy.es/move-view-when-keyboard-is-shown/">Move view when keyboard is shown (guide)</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-29 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="keyboard">keyboard</span></span></h3>
+<div id="outline-container-orgd0255f8" class="outline-3">
+<h3 id="orgd0255f8"><a href="https://www.techiedelight.com/recursion-practice-problems-with-solutions/">程設問題分析整理</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-19 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="data">data</span>&#xa0;<span class="structure">structure</span>&#xa0;<span class="algorithm">algorithm</span></span></h3>
 </div>
-<div id="outline-container-orgfb2ddbc" class="outline-3">
-<h3 id="orgfb2ddbc"><a href="https://firebase.google.cn/docs/auth/unity/manage-users?hl=EN">Update user&rsquo;s profile on firestore</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firestore">firestore</span>&#xa0;<span class="profile">profile</span></span></h3>
 </div>
-<div id="outline-container-org417503f" class="outline-3">
-<h3 id="org417503f"><a href="https://www.scaledrone.com/blog/ios-chat-tutorial/">iOS Chat Tutorial: Building A Realtime Messaging App</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="chat">chat</span>&#xa0;<span class="swift">swift</span></span></h3>
+<div id="outline-container-org9fa4803" class="outline-2">
+<h2 id="org9fa4803">SWIFT</h2>
+<div class="outline-text-2" id="text-org9fa4803">
 </div>
-<div id="outline-container-orgd012921" class="outline-3">
-<h3 id="orgd012921"><a href="https://medium.com/build-an-app-like-lego/build-app-lego-tutorial-13-375e6d512e26">Build an App Like Lego — Tutorial 13</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swift">swift</span>&#xa0;<span class="chat">chat</span></span></h3>
+<div id="outline-container-org6958837" class="outline-3">
+<h3 id="org6958837"><a href="https://www.youtube.com/watch?v=jniJeamcIUU">How to Make an App for Beginners</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="begineer">begineer</span></span></h3>
 </div>
-<div id="outline-container-orgb921d80" class="outline-3">
-<h3 id="orgb921d80"><a href="http://xenodium.com/swiftui-layout-previews-using-emacs-org-blocks/">SWIFTUI</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-22 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swiftui">swiftui</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="siwft">siwft</span></span></h3>
+<div id="outline-container-orgd6fd05a" class="outline-3">
+<h3 id="orgd6fd05a"><a href="https://www.youtube.com/watch?v=1HN7usMROt8">Firebase Authentication Tutorial 2020</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firebase">firebase</span></span></h3>
 </div>
+<div id="outline-container-org0bd0e83" class="outline-3">
+<h3 id="org0bd0e83"><a href="https://codewithchris.com/actionplan/?utm_source=youtube&amp;utm_medium=desc&amp;utm_campaign=firebaseauth">The 7 Day App Action Plan</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="7">7</span>&#xa0;<span class="day">day</span></span></h3>
 </div>
-<div id="outline-container-org9b64f46" class="outline-2">
-<h2 id="org9b64f46">Python</h2>
-<div class="outline-text-2" id="text-org9b64f46">
+<div id="outline-container-org150b9b8" class="outline-3">
+<h3 id="org150b9b8"><a href="https://medium.com/@ibjects/simple-text-chat-app-using-firebase-in-swift-5-b9fa91730b6c">Simple Text Chat App using Firebase in Swift 5 - MessageKit</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-28 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="MessageKit">MessageKit</span>&#xa0;<span class="SWIFT">SWIFT</span>&#xa0;<span class="Firebase">Firebase</span></span></h3>
 </div>
-<div id="outline-container-orga255d43" class="outline-3">
-<h3 id="orga255d43"><a href="https://medium.com/@b89202027_37759/%E5%AF%A6%E7%94%A8%E4%BD%86%E5%B8%B8%E5%BF%98%E8%A8%98%E7%9A%84pandas-dataframe%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-1-976f48eb2bd5">實用但常忘記的Pandas Dataframe常用指令 1</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Pandas">Pandas</span></span></h3>
+<div id="outline-container-orgcff61e2" class="outline-3">
+<h3 id="orgcff61e2"><a href="https://fluffy.es/move-view-when-keyboard-is-shown/">Move view when keyboard is shown (guide)</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-29 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="keyboard">keyboard</span></span></h3>
 </div>
-<div id="outline-container-org14ee53a" class="outline-3">
-<h3 id="org14ee53a"><a href="https://www.youtube.com/watch?v=rfscVS0vtbw">Learn Python - Full Course for Beginners [Tutorial</a>] <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="begineer">begineer</span>&#xa0;<span class="video">video</span></span></h3>
+<div id="outline-container-orgf389ff6" class="outline-3">
+<h3 id="orgf389ff6"><a href="https://firebase.google.cn/docs/auth/unity/manage-users?hl=EN">Update user&rsquo;s profile on firestore</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firestore">firestore</span>&#xa0;<span class="profile">profile</span></span></h3>
 </div>
-<div id="outline-container-org98e028e" class="outline-3">
-<h3 id="org98e028e"><a href="https://hackmd.io/@wh91008">Python v.s. Firestore</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-27 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firebase">firebase</span>&#xa0;<span class="firestore">firestore</span></span></h3>
+<div id="outline-container-org4890d2d" class="outline-3">
+<h3 id="org4890d2d"><a href="https://www.scaledrone.com/blog/ios-chat-tutorial/">iOS Chat Tutorial: Building A Realtime Messaging App</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="chat">chat</span>&#xa0;<span class="swift">swift</span></span></h3>
 </div>
-<div id="outline-container-org3de4fad" class="outline-3">
-<h3 id="org3de4fad"><a href="https://www.emacswiki.org/emacs/PythonProgrammingInEmacs">PythonProgrammingInEmacs</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="python">python</span></span></h3>
+<div id="outline-container-org37ada74" class="outline-3">
+<h3 id="org37ada74"><a href="https://medium.com/build-an-app-like-lego/build-app-lego-tutorial-13-375e6d512e26">Build an App Like Lego — Tutorial 13</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-01 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swift">swift</span>&#xa0;<span class="chat">chat</span></span></h3>
 </div>
-<div id="outline-container-org3bdd63e" class="outline-3">
-<h3 id="org3bdd63e"><a href="https://hirozy.com/2018/08/python-language-support-with-emacs-and-lsp-mode/">Emacs 下使用 lsp-mode 對 Python 進行補全</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="python">python</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="lsp">lsp</span>&#xa0;<span class="mode">mode</span></span></h3>
+<div id="outline-container-org707a732" class="outline-3">
+<h3 id="org707a732"><a href="http://xenodium.com/swiftui-layout-previews-using-emacs-org-blocks/">SWIFTUI</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-22 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swiftui">swiftui</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="siwft">siwft</span></span></h3>
 </div>
-<div id="outline-container-org9afc49c" class="outline-3">
-<h3 id="org9afc49c"><a href="https://medium.com/pyladies-taiwan/python-%E5%B0%87python%E6%89%93%E5%8C%85%E6%88%90exe%E6%AA%94-32a4bacbe351">【Python】使用 PyInstaller 將 Python打包成 exe 檔</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="PyInstaller">PyInstaller</span>&#xa0;<span class="exe">exe</span></span></h3>
+<div id="outline-container-org072c8d5" class="outline-3">
+<h3 id="org072c8d5"><a href="https://www.hackingwithswift.com/100/swiftui">https://www.hackingwithswift.com/100/swiftui</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></h3>
 </div>
-<div id="outline-container-org74693dc" class="outline-3">
-<h3 id="org74693dc"><a href="https://blog.techbridge.cc/2019/05/03/how-to-use-python-string-format-method/">如何使用 Python 進行字串格式化</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-05 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="print">print</span>&#xa0;<span class="format">format</span>&#xa0;<span class="string">string</span></span></h3>
+<div id="outline-container-orga94aea9" class="outline-3">
+<h3 id="orga94aea9"><a href="http://swiftdeveloperblog.com/code-examples/">Swift Developer Blog</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></h3>
 </div>
-<div id="outline-container-org5ceb769" class="outline-3">
-<h3 id="org5ceb769"><a href="http://xahlee.info/python/python3_basics.html">Python 3 in 1 Hour</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span></h3>
+<div id="outline-container-org0e42cd7" class="outline-3">
+<h3 id="org0e42cd7"><a href="https://www.youtube.com/watch?v=Ulp1Kimblg0">Swift Programming Tutorial for Beginners (Full Tutorial)</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></h3>
 </div>
-<div id="outline-container-org1a89a4f" class="outline-3">
-<h3 id="org1a89a4f"><a href="https://www.youtube.com/watch?v=0pWJHy_fNWA">https://www.youtube.com/watch?v=0pWJHy<sub>fNWA</sub></a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="scrapy">scrapy</span></span></h3>
+<div id="outline-container-org2cf8644" class="outline-3">
+<h3 id="org2cf8644"><a href="https://www.youtube.com/watch?v=VlhcNR7Qrno">Your First SwiftUI App (Full Compilation!)</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></h3>
 </div>
-<div id="outline-container-org0eb277d" class="outline-3">
-<h3 id="org0eb277d"><a href="https://www.youtube.com/watch?v=grZi9j4HKvc">[Selenium] 如何使用 Selenium 自動下載漫畫 (1)?</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="selenium">selenium</span></span></h3>
+<div id="outline-container-org4d1af6f" class="outline-3">
+<h3 id="org4d1af6f"><a href="https://www.youtube.com/watch?v=jbtqIBpUG7g">Lecture 1: Course Logistics and Introduction to SwiftUI</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></h3>
 </div>
-<div id="outline-container-orge864926" class="outline-3">
-<h3 id="orge864926"><a href="https://www.youtube.com/watch?v=fnwvYAtCFko&amp;list=PLoXVVttzUupM8OnsX4WV9-DO3IMMjBSDe&amp;index=2">[Scrapy 爬蟲] 如何撰寫第一支Scrapy 爬蟲以抓取蘋果即時新聞?</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="scrapy">scrapy</span></span></h3>
+<div id="outline-container-orga59ba52" class="outline-3">
+<h3 id="orga59ba52"><a href="https://www.youtube.com/watch?v=FE4ys3tW1VI">SwiftUI Live: Building an app from scratch</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-24 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span></span></h3>
 </div>
-<div id="outline-container-orgb8278d7" class="outline-3">
-<h3 id="orgb8278d7"><a href="https://kknews.cc/zh-tw/code/v26o9gl.html">70個NumPy分級練習：用Python一舉搞定機器學習矩陣運算</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-17 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="numpy">numpy</span></span></h3>
+<div id="outline-container-org4ebb7ed" class="outline-3">
+<h3 id="org4ebb7ed"><a href="https://medium.com/@JJeremy.XUE/swift-%E8%AA%AA%E8%AA%AA-codable-decodable-encodable-594b28ff3d49">Swift — 說說 Codable （ Decodable &amp; Encodable）</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-07 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Codable">Codable</span>&#xa0;<span class="Swift">Swift</span></span></h3>
 </div>
-<div id="outline-container-orga9f2aa0" class="outline-3">
-<h3 id="orga9f2aa0"><a href="https://stackoverflow.com/questions/42292986/how-to-transpose-specific-columns-into-rows-in-pandas-associate-other-column-val">How To transpose specific columns into rows in pandas associate other column value</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-23 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="transform">transform</span>&#xa0;<span class="melt">melt</span></span></h3>
+<div id="outline-container-org53c1c4c" class="outline-3">
+<h3 id="org53c1c4c"><a href="https://www.youtube.com/watch?v=1IlUBHvgY8Q">SwiftUI MVVM Programming with ObservableObject @Published @ObservedObject</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span>&#xa0;<span class="MVVM">MVVM</span></span></h3>
 </div>
-<div id="outline-container-orgc796c9e" class="outline-3">
-<h3 id="orgc796c9e"><a href="https://docs.python.org/3/contents.html">Python Documentation contents</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-13 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Python">Python</span>&#xa0;<span class="__">教材</span></span></h3>
+<div id="outline-container-org6c16740" class="outline-3">
+<h3 id="org6c16740"><a href="https://www.youtube.com/watch?v=GW-palKVv8o">Intro : SwiftUI MVVM iOS App: Part 1</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="SwiftUI">SwiftUI</span>&#xa0;<span class="MVVM">MVVM</span></span></h3>
 </div>
+<div id="outline-container-org32f93af" class="outline-3">
+<h3 id="org32f93af"><a href="https://www.youtube.com/watch?v=fejmsuxoIvA">Swift NYC 2019 - Getting Started with Combine</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Swift">Swift</span>&#xa0;<span class="Combine">Combine</span></span></h3>
 </div>
-<div id="outline-container-orga6dbdbd" class="outline-2">
-<h2 id="orga6dbdbd">R</h2>
-<div class="outline-text-2" id="text-orga6dbdbd">
+<div id="outline-container-org3a3af97" class="outline-3">
+<h3 id="org3a3af97"><a href="https://www.youtube.com/watch?v=Bb5APObvgDY">iOS 13 Swift Tutorial: Understand Swift UI, Property Wrapper &amp; More</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_State">@State</span>&#xa0;<span class="_EnvironmentOjbect">@EnvironmentOjbect</span></span></h3>
 </div>
-<div id="outline-container-org53c859f" class="outline-3">
-<h3 id="org53c859f"><a href="http://www.instantr.com/2012/12/12/performing-bartletts-test-in-r/">Performing Bartlett’s test in R </a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-11 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Bartlett">Bartlett</span>&#xa0;<span class="s">s</span>&#xa0;<span class="test">test</span></span></h3>
+<div id="outline-container-org7161bb2" class="outline-3">
+<h3 id="org7161bb2"><a href="https://www.youtube.com/watch?v=stSB04C4iS4&amp;t=5s">SwiftUI Tutorial: What&rsquo;s the difference between @State, @ObjectBinding, and @EnvironmentObject?</a></h3>
 </div>
-<div id="outline-container-org9e37a74" class="outline-3">
-<h3 id="org9e37a74"><a href="https://is.gd/492Z2M">量化研究與統計分析：SPSS與R資料分析範例解析</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="psychometric">psychometric</span>&#xa0;<span class="____">項目分析</span>&#xa0;<span class="_______">題目與總分相關</span></span></h3>
+<div id="outline-container-org09acff7" class="outline-3">
+<h3 id="org09acff7"><a href="https://www.cnswift.org/the-basics">Swift 编程语言</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-28 Mon&gt;</span></span></h3>
 </div>
-<div id="outline-container-org461c0f3" class="outline-3">
-<h3 id="org461c0f3"><a href="https://www.uwo.ca/fhs/tc/labs/09.ItemAnalysis.pdf">Item Analysis</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="psych">psych</span>&#xa0;<span class="item">item</span></span></h3>
+<div id="outline-container-org99f9f0c" class="outline-3">
+<h3 id="org99f9f0c">SwiftUI Starter Project</h3>
+<div class="outline-text-3" id="text-org99f9f0c">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=nc-n5Gc8wN0">Setting up - SwiftUI Starter Project 1/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=oJR-CH7sPxs">Building a menu using List - SwiftUI Starter Project 2/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=0xinbTAxbK8&amp;list=PLuoeXyslFTubw4NtepDCis5tTqK37zT3Q&amp;index=3">Composing views to create a list row - SwiftUI Starter Project 3/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=dkQKHqCKbT8&amp;t=36s">Polishing designs with fonts and colors - SwiftUI Starter Project 4/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=UBjIjtP8MzM">Displaying a detail screen with NavigationLink - SwiftUI Starter Project 5/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=q56YCnmnnME&amp;t=9s">Observable objects, environment objects, and @Published - SwiftUI Starter Project 6/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=YfNhwMhYtnI&amp;t=20s">Adding items to an order with @EnvironmentObject - SwiftUI Starter Project 7/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=e7t3Dor9oxI">Adding TabView and tabItem() - SwiftUI Starter Project 8/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=5UJCIymXmdU&amp;t=16s">Bindings and forms - SwiftUI Starter Project 9/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=U1s4bDmpanc">Two-way bindings in SwiftUI - SwiftUI Starter Project 10/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=EdpM3DsL_J0">Formatting interpolated strings in SwiftUI - SwiftUI Starter Project 11/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=n2OC_bgn71g">Presenting an alert - SwiftUI Starter Project 12/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=ATzBMXePITs">Adding swipe to delete and EditButton - SwiftUI Starter Project 13/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+<li><a href="https://www.youtube.com/watch?v=nWclVBDIlSA">Wrap up - SwiftUI Starter Project 14/14</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span><br /></li>
+</ul>
 </div>
-<div id="outline-container-org24f827c" class="outline-3">
-<h3 id="org24f827c"><a href="https://rpubs.com/jaelison/135029">Factor Analysis</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-13 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Factor">Factor</span>&#xa0;<span class="Analysis">Analysis</span></span></h3>
 </div>
+<div id="outline-container-orgc400d93" class="outline-3">
+<h3 id="orgc400d93"><a href="https://www.hackingwithswift.com/quick-start/swiftui">Hacking with Swift</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-29 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Hacking">Hacking</span></span></h3>
 </div>
-<div id="outline-container-org370a008" class="outline-2">
-<h2 id="org370a008">Emacs</h2>
-<div class="outline-text-2" id="text-org370a008">
+<div id="outline-container-org6859ba7" class="outline-3">
+<h3 id="org6859ba7"><a href="https://www.hackingwithswift.com/quick-start/swiftui">SwiftUI by Example</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-05 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Example">Example</span></span></h3>
 </div>
-<div id="outline-container-orgafc35de" class="outline-3">
-<h3 id="orgafc35de"><a href="https://blog.csdn.net/u011729865/article/details/54236547">spacemacs org-mode配置GTD</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:03&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="GTD">GTD</span></span></h3>
+<div id="outline-container-org86fb81a" class="outline-3">
+<h3 id="org86fb81a"><a href="https://www.youtube.com/watch?v=jXVQDmeNb8A&amp;feature=youtu.be">SwiftUI Cart Page UI With Custom Swipe To Delete Action - Complex UI - SwiftUI 2.0 Tutorials</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-12 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="MVVM">MVVM</span></span></h3>
 </div>
-<div id="outline-container-org62633f9" class="outline-3">
-<h3 id="org62633f9"><a href="https://blog.pytool.com/edit/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91-org-capture/">Emacs org capture的啟用設定</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:07&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="capture">capture</span></span></h3>
+<div id="outline-container-orgcf0045e" class="outline-3">
+<h3 id="orgcf0045e"><a href="https://www.youtube.com/watch?v=51wK24_oFWo">Passing Data from Modal to Parent in SwiftUI</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-25 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_binding">@binding</span></span></h3>
 </div>
-<div id="outline-container-org5297beb" class="outline-3">
-<h3 id="org5297beb"><a href="https://www.gtrun.org/post/init/">My Doom Emacs config</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:26&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="config">config</span></span></h3>
+<div id="outline-container-org171656d" class="outline-3">
+<h3 id="org171656d"><a href="https://www.simpleswiftguide.com/">Simple Swift Guide</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-11-12 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="swift">swift</span></span></h3>
 </div>
-<div id="outline-container-orgad791ac" class="outline-3">
-<h3 id="orgad791ac"><a href="https://www.rousette.org.uk/archives/doom-emacs-tweaks-org-journal-and-org-super-agenda/">Doom Emacs tweaks: Org Journal and Super Agenda</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-09 Thu 08:53&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Super">Super</span>&#xa0;<span class="Agenda">Agenda</span></span></h3>
 </div>
-<div id="outline-container-orge5391c6" class="outline-3">
-<h3 id="orge5391c6"><a href="https://stackoverflow.com/questions/10290828/emacs-scroll-other-window-up">emacs scroll other window up</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-09 Thu 09:05&gt;</span></span></h3>
+<div id="outline-container-org8dd8ae7" class="outline-2">
+<h2 id="org8dd8ae7">Python</h2>
+<div class="outline-text-2" id="text-org8dd8ae7">
 </div>
-<div id="outline-container-org1e21831" class="outline-3">
-<h3 id="org1e21831"><a href="https://github.com/nmartin84/.doom.d">Doom Emacs config.el - nmartin84 </a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 10:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="config">config</span>&#xa0;<span class="doom">doom</span>&#xa0;<span class="emacs">emacs</span></span></h3>
+<div id="outline-container-org90b5386" class="outline-3">
+<h3 id="org90b5386"><a href="https://medium.com/@b89202027_37759/%E5%AF%A6%E7%94%A8%E4%BD%86%E5%B8%B8%E5%BF%98%E8%A8%98%E7%9A%84pandas-dataframe%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-1-976f48eb2bd5">實用但常忘記的Pandas Dataframe常用指令 1</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Pandas">Pandas</span></span></h3>
 </div>
-<div id="outline-container-org4c40b8a" class="outline-3">
-<h3 id="org4c40b8a"><a href="https://www.cnblogs.com/yangruiGB2312/p/9101838.html">如何利用Emacs進行個人時間管理(GTD)</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 11:04&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="GTD">GTD</span>&#xa0;<span class="agenda">agenda</span></span></h3>
+<div id="outline-container-org447a118" class="outline-3">
+<h3 id="org447a118"><a href="https://www.youtube.com/watch?v=rfscVS0vtbw">Learn Python - Full Course for Beginners [Tutorial</a>] <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-26 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="begineer">begineer</span>&#xa0;<span class="video">video</span></span></h3>
 </div>
-<div id="outline-container-org9cab0b5" class="outline-3">
-<h3 id="org9cab0b5"><a href="https://zhuanlan.zhihu.com/p/80133952">神之編輯器 &#x2013; Emacs</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 13:24&gt;</span></span></h3>
+<div id="outline-container-orgbd99cc8" class="outline-3">
+<h3 id="orgbd99cc8"><a href="https://hackmd.io/@wh91008">Python v.s. Firestore</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-27 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="firebase">firebase</span>&#xa0;<span class="firestore">firestore</span></span></h3>
 </div>
-<div id="outline-container-orgfedf01c" class="outline-3">
-<h3 id="orgfedf01c"><a href="https://org-roam.readthedocs.io/en/latest/">Org-roam</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-11 Sat 14:38&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="roam">roam</span></span></h3>
+<div id="outline-container-org6b54b17" class="outline-3">
+<h3 id="org6b54b17"><a href="https://www.emacswiki.org/emacs/PythonProgrammingInEmacs">PythonProgrammingInEmacs</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="python">python</span></span></h3>
 </div>
-<div id="outline-container-orgf083fc6" class="outline-3">
-<h3 id="orgf083fc6"><a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html">Organizing Notes With Refile</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-11 Sat 14:41&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="refile">refile</span></span></h3>
+<div id="outline-container-org608bf11" class="outline-3">
+<h3 id="org608bf11"><a href="https://hirozy.com/2018/08/python-language-support-with-emacs-and-lsp-mode/">Emacs 下使用 lsp-mode 對 Python 進行補全</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="python">python</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="lsp">lsp</span>&#xa0;<span class="mode">mode</span></span></h3>
 </div>
-<div id="outline-container-org59eaaff" class="outline-3">
-<h3 id="org59eaaff"><a href="https://www.chrislockard.net/posts/2019-11-14-notes-on-configuring-mu4e-and-doom-emacs/">Configuring Doom emacs, mbsync, and mu4e for use with o365</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 20:00&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
+<div id="outline-container-org618b730" class="outline-3">
+<h3 id="org618b730"><a href="https://medium.com/pyladies-taiwan/python-%E5%B0%87python%E6%89%93%E5%8C%85%E6%88%90exe%E6%AA%94-32a4bacbe351">【Python】使用 PyInstaller 將 Python打包成 exe 檔</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-04 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="PyInstaller">PyInstaller</span>&#xa0;<span class="exe">exe</span></span></h3>
 </div>
-<div id="outline-container-org12450cd" class="outline-3">
-<h3 id="org12450cd"><a href="https://www.junahan.com/post/emacs-mu4e/">https://www.junahan.com/post/emacs-mu4e/</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 21:38&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
+<div id="outline-container-org99346e6" class="outline-3">
+<h3 id="org99346e6"><a href="https://blog.techbridge.cc/2019/05/03/how-to-use-python-string-format-method/">如何使用 Python 進行字串格式化</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-05 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="print">print</span>&#xa0;<span class="format">format</span>&#xa0;<span class="string">string</span></span></h3>
 </div>
-<div id="outline-container-org8e7c6a2" class="outline-3">
-<h3 id="org8e7c6a2"><a href="http://linzhichu.github.io/computers/2018/02/28/org-agenda">使用Org Mode管理日常任務 </a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 21:41&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="gtd">gtd</span></span></h3>
+<div id="outline-container-orgcb73dbd" class="outline-3">
+<h3 id="orgcb73dbd"><a href="http://xahlee.info/python/python3_basics.html">Python 3 in 1 Hour</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span></h3>
 </div>
-<div id="outline-container-orgae65c96" class="outline-3">
-<h3 id="orgae65c96"><a href="http://www.brool.com/post/using-mu4e/">Using mu4e</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-13 Mon 23:07&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
+<div id="outline-container-orgddeeda2" class="outline-3">
+<h3 id="orgddeeda2"><a href="https://www.youtube.com/watch?v=0pWJHy_fNWA">https://www.youtube.com/watch?v=0pWJHy<sub>fNWA</sub></a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="scrapy">scrapy</span></span></h3>
 </div>
-<div id="outline-container-orgc1c1484" class="outline-3">
-<h3 id="orgc1c1484"><a href="https://emacs-china.org/t/org-refile-todo/12242">org-refile 时怎么改变 TODO 状态？</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 16:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span>&#xa0;<span class="refile">refile</span>&#xa0;<span class="emacs">emacs</span></span></h3>
+<div id="outline-container-orge2f9968" class="outline-3">
+<h3 id="orge2f9968"><a href="https://www.youtube.com/watch?v=grZi9j4HKvc">[Selenium] 如何使用 Selenium 自動下載漫畫 (1)?</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="selenium">selenium</span></span></h3>
 </div>
-<div id="outline-container-orgb770593" class="outline-3">
-<h3 id="orgb770593"><a href="https://read01.com/zh-tw/KE5JoJ.html#.Xpgv0ZpS8-A">Emacs和Vim：神的編輯器和編輯器之神</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 18:17&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="vi">vi</span></span></h3>
+<div id="outline-container-orga4fa18e" class="outline-3">
+<h3 id="orga4fa18e"><a href="https://www.youtube.com/watch?v=fnwvYAtCFko&amp;list=PLoXVVttzUupM8OnsX4WV9-DO3IMMjBSDe&amp;index=2">[Scrapy 爬蟲] 如何撰寫第一支Scrapy 爬蟲以抓取蘋果即時新聞?</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-16 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="scrapy">scrapy</span></span></h3>
 </div>
-<div id="outline-container-org5e2b34d" class="outline-3">
-<h3 id="org5e2b34d"><a href="https://opensource.com/article/20/1/emacs-cheat-sheet">6 things you should be doing with Emacs</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 18:17&gt;</span></span></h3>
+<div id="outline-container-org48464f7" class="outline-3">
+<h3 id="org48464f7"><a href="https://kknews.cc/zh-tw/code/v26o9gl.html">70個NumPy分級練習：用Python一舉搞定機器學習矩陣運算</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-17 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="numpy">numpy</span></span></h3>
 </div>
-<div id="outline-container-orgea35f9c" class="outline-3">
-<h3 id="orgea35f9c"><a href="https://www.youtube.com/watch?v=bYy90EUAh98&amp;list=PLt0cfLFa-ZYwW_5TmwbpV443lE8wwjGS2&amp;index=5&amp;t=0s">live-py mode</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-03 Sun 17:19&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="python">python</span>&#xa0;<span class="live">live</span>&#xa0;<span class="py">py</span></span></h3>
+<div id="outline-container-org2f23475" class="outline-3">
+<h3 id="org2f23475"><a href="https://stackoverflow.com/questions/42292986/how-to-transpose-specific-columns-into-rows-in-pandas-associate-other-column-val">How To transpose specific columns into rows in pandas associate other column value</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-23 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="transform">transform</span>&#xa0;<span class="melt">melt</span></span></h3>
 </div>
-<div id="outline-container-orgef0d47e" class="outline-3">
-<h3 id="orgef0d47e"><a href="http://ergoemacs.org/emacs/emacs_spell_check.html">Emacs: Spell Checking</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-09 Sat 18:00&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="flyspell">flyspell</span></span></h3>
+<div id="outline-container-org70a551f" class="outline-3">
+<h3 id="org70a551f"><a href="https://docs.python.org/3/contents.html">Python Documentation contents</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-13 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Python">Python</span>&#xa0;<span class="__">教材</span></span></h3>
 </div>
-<div id="outline-container-orge2954db" class="outline-3">
-<h3 id="orge2954db"><a href="https://git.jeremydormitzer.com/jdormit/dotfiles/src/commit/8266a2c24a1077ff740e570dba25df7150559b1e/emacs/init.org">jdormit init.el reference</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-13 Wed 22:59&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="doom">doom</span></span></h3>
+<div id="outline-container-org566af7d" class="outline-3">
+<h3 id="org566af7d"><a href="https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-71f55bccb693">Python 初學第一講 — 變數與基本運算</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Python">Python</span>&#xa0;<span class="instruction">instruction</span></span></h3>
 </div>
-<div id="outline-container-org5e75a63" class="outline-3">
-<h3 id="org5e75a63"><a href="https://www.youtube.com/watch?v=Wy9WvF5gWYg">Org-roam-bibtex - Quick Presentation</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-24 Sun 22:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span>&#xa0;<span class="roam">roam</span></span></h3>
+<div id="outline-container-orgcc190e0" class="outline-3">
+<h3 id="orgcc190e0"><a href="https://wenyuangg.github.io/">通訊雜記</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-20 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="blog">blog</span></span></h3>
 </div>
-<div id="outline-container-orgc34fec0" class="outline-3">
-<h3 id="orgc34fec0"><a href="https://writequit.org/eos/eos-appearance.html#h:effd858a-d5e9-4afc-9e36-3488f7c75189">EOS: Emacs Appearance</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-31 Sun 16:32&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="appearance">appearance</span></span></h3>
+<div id="outline-container-orgfd809c9" class="outline-3">
+<h3 id="orgfd809c9"><a href="https://pynative.com/python-date-and-time-exercise/">Python Exercises</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-20 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="exercises">exercises</span></span></h3>
 </div>
-<div id="outline-container-org077dfad" class="outline-3">
-<h3 id="org077dfad"><a href="https://www.gtrun.org/custom/init.html#orgf8c5edf">hlissner&rsquo;s Doom Emacs config</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-01 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="hlissner">hlissner</span>&#xa0;<span class="doom">doom</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="config">config</span></span></h3>
+<div id="outline-container-org69bbf24" class="outline-3">
+<h3 id="org69bbf24"><a href="http://dominiquethiebaut.com/dftwiki3/index.php/Tutorial_Moodle_VPL_Gremlins_--_Python">Tutorial Moodle VPL Gremlins &#x2013; Python</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-23 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="VPL">VPL</span></span></h3>
 </div>
-<div id="outline-container-orgd0e2097" class="outline-3">
-<h3 id="orgd0e2097"><a href="https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html">Orgmode for GTD</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-14 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="refile">refile</span>&#xa0;<span class="orgmode">orgmode</span></span></h3>
+<div id="outline-container-org6453695" class="outline-3">
+<h3 id="org6453695"><a href="https://youtu.be/sugvnHA7ElY">Python Tutorial: if <span class="underline"><span class="underline">name</span></span> == &rsquo;<span class="underline"><span class="underline">main</span></span>&rsquo;</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-10 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__main__">__main__</span></span></h3>
 </div>
-<div id="outline-container-org6462998" class="outline-3">
-<h3 id="org6462998"><a href="http://doc.norang.ca/org-mode.html#Publishing">Org Mode - Organize Your Life In Plain Text!</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-14 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span></span></h3>
+<div id="outline-container-orgefa5c9a" class="outline-3">
+<h3 id="orgefa5c9a"><a href="https://ithelp.ithome.com.tw/articles/10230292"> OJ上如何讀測資的教學? </a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-17 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="test">test</span>&#xa0;<span class="case">case</span></span></h3>
 </div>
-<div id="outline-container-orga618e05" class="outline-3">
-<h3 id="orga618e05"><a href="https://github.com/tonsky/FiraCode/wiki/Emacs-instructions">Fira Code</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-25 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="code">code</span>&#xa0;<span class="font">font</span>&#xa0;<span class="emacs">emacs</span></span></h3>
+<div id="outline-container-orgd46bd9a" class="outline-3">
+<h3 id="orgd46bd9a"><a href="https://www.coder.work/article/4938189">pytube中有一个错误</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-29 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pytub">pytub</span>&#xa0;<span class="youtube">youtube</span>&#xa0;<span class="video">video</span>&#xa0;<span class="download">download</span></span></h3>
 </div>
-<div id="outline-container-org43eda91" class="outline-3">
-<h3 id="org43eda91"><a href="http://blog.lujun9972.win/emacs-document/blog/2020/01/15/mu4e%E6%95%91%E4%BD%A0%E5%87%BAemail%E7%9A%84%E8%8B%A6%E6%B5%B7/index.html">mu4e救你出Email的苦海</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-29 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
+<div id="outline-container-orgf748b46" class="outline-3">
+<h3 id="orgf748b46"><a href="https://medium.com/@benbilly3/youtube-crawler-with-python-227c57041372">Youtube Crawler with Python</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-29 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Youtube">Youtube</span>&#xa0;<span class="crawler">crawler</span>&#xa0;<span class="python">python</span></span></h3>
 </div>
-<div id="outline-container-org4c652a8" class="outline-3">
-<h3 id="org4c652a8"><a href="http://hk.uwenku.com/question/p-njygriul-qn.html">使用gmail imap配置gnus</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-29 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
 </div>
-<div id="outline-container-org848f8a3" class="outline-3">
-<h3 id="org848f8a3"><a href="http://makble.com/multiple-cursor-edting-in-emacs">Multiple Cursor editing in Emacs</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-01 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Multiple">Multiple</span>&#xa0;<span class="Cursor">Cursor</span>&#xa0;<span class="mc">mc</span></span></h3>
+<div id="outline-container-orgfaa0608" class="outline-2">
+<h2 id="orgfaa0608">R</h2>
+<div class="outline-text-2" id="text-orgfaa0608">
 </div>
-<div id="outline-container-orgefed0b6" class="outline-3">
-<h3 id="orgefed0b6"><a href="https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/525953/">一年成為Emacs高手(像神一樣使用編輯器)</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-16 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="God">God</span></span></h3>
+<div id="outline-container-orgdfad3f4" class="outline-3">
+<h3 id="orgdfad3f4"><a href="http://www.instantr.com/2012/12/12/performing-bartletts-test-in-r/">Performing Bartlett’s test in R </a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-11 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Bartlett">Bartlett</span>&#xa0;<span class="s">s</span>&#xa0;<span class="test">test</span></span></h3>
 </div>
+<div id="outline-container-orgb565175" class="outline-3">
+<h3 id="orgb565175"><a href="https://is.gd/492Z2M">量化研究與統計分析：SPSS與R資料分析範例解析</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="psychometric">psychometric</span>&#xa0;<span class="____">項目分析</span>&#xa0;<span class="_______">題目與總分相關</span></span></h3>
 </div>
-<div id="outline-container-org7a5453e" class="outline-2">
-<h2 id="org7a5453e">Research</h2>
-<div class="outline-text-2" id="text-org7a5453e">
+<div id="outline-container-orgf70c1a4" class="outline-3">
+<h3 id="orgf70c1a4"><a href="https://www.uwo.ca/fhs/tc/labs/09.ItemAnalysis.pdf">Item Analysis</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="psych">psych</span>&#xa0;<span class="item">item</span></span></h3>
 </div>
-<div id="outline-container-orga35ddc6" class="outline-3">
-<h3 id="orga35ddc6"><a href="https://blog.jethro.dev/posts/how_to_take_smart_notes_org/">How To Take Smart Notes With Org-mode</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notes">notes</span></span></h3>
+<div id="outline-container-org5d93b64" class="outline-3">
+<h3 id="org5d93b64"><a href="https://rpubs.com/jaelison/135029">Factor Analysis</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-13 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Factor">Factor</span>&#xa0;<span class="Analysis">Analysis</span></span></h3>
 </div>
-<div id="outline-container-org0d984df" class="outline-3">
-<h3 id="org0d984df"><a href="http://0x100.club/wiki_emacs/gtd.html">GTD 實踐方法</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="gtd">gtd</span>&#xa0;<span class="refile">refile</span></span></h3>
 </div>
-<div id="outline-container-orgcdbc7e5" class="outline-3">
-<h3 id="orgcdbc7e5"><a href="http://amebse.nchu.edu.tw/new_page_517.htm">相關係數之介紹</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="coefficient">coefficient</span>&#xa0;<span class="of">of</span>&#xa0;<span class="correlation">correlation</span>&#xa0;<span class="Pearson">Pearson</span>&#xa0;<span class="Spearman">Spearman</span></span></h3>
+<div id="outline-container-org580368f" class="outline-2">
+<h2 id="org580368f">Emacs</h2>
+<div class="outline-text-2" id="text-org580368f">
 </div>
+<div id="outline-container-org969b9d7" class="outline-3">
+<h3 id="org969b9d7"><a href="https://blog.csdn.net/u011729865/article/details/54236547">spacemacs org-mode配置GTD</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:03&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="GTD">GTD</span></span></h3>
 </div>
-<div id="outline-container-orgb6ff9ad" class="outline-2">
-<h2 id="orgb6ff9ad">Nets</h2>
-<div class="outline-text-2" id="text-orgb6ff9ad">
+<div id="outline-container-orgd6622e5" class="outline-3">
+<h3 id="orgd6622e5"><a href="https://blog.pytool.com/edit/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91-org-capture/">Emacs org capture的啟用設定</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:07&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="capture">capture</span></span></h3>
 </div>
-<div id="outline-container-org9449df1" class="outline-3">
-<h3 id="org9449df1"><a href="https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/691823/">掌舵Kubernetes（一）：如何起步？</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Kubernetes">Kubernetes</span></span></h3>
+<div id="outline-container-org63cec1d" class="outline-3">
+<h3 id="org63cec1d"><a href="https://www.gtrun.org/post/init/">My Doom Emacs config</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-08 Wed 21:26&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="config">config</span></span></h3>
 </div>
-<div id="outline-container-org066cd9d" class="outline-3">
-<h3 id="org066cd9d"><a href="https://medium.com/@C.W.Hu/kubernetes-basic-concept-tutorial-e033e3504ec0">Kubernetes 基礎教學（一）原理介紹</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Kubernetes">Kubernetes</span></span></h3>
+<div id="outline-container-orgfe83ae4" class="outline-3">
+<h3 id="orgfe83ae4"><a href="https://www.rousette.org.uk/archives/doom-emacs-tweaks-org-journal-and-org-super-agenda/">Doom Emacs tweaks: Org Journal and Super Agenda</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-09 Thu 08:53&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Super">Super</span>&#xa0;<span class="Agenda">Agenda</span></span></h3>
+</div>
+<div id="outline-container-org9ae27c4" class="outline-3">
+<h3 id="org9ae27c4"><a href="https://stackoverflow.com/questions/10290828/emacs-scroll-other-window-up">emacs scroll other window up</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-09 Thu 09:05&gt;</span></span></h3>
+</div>
+<div id="outline-container-org9c20371" class="outline-3">
+<h3 id="org9c20371"><a href="https://github.com/nmartin84/.doom.d">Doom Emacs config.el - nmartin84 </a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 10:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="config">config</span>&#xa0;<span class="doom">doom</span>&#xa0;<span class="emacs">emacs</span></span></h3>
+</div>
+<div id="outline-container-org4d5eee0" class="outline-3">
+<h3 id="org4d5eee0"><a href="https://www.cnblogs.com/yangruiGB2312/p/9101838.html">如何利用Emacs進行個人時間管理(GTD)</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 11:04&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="GTD">GTD</span>&#xa0;<span class="agenda">agenda</span></span></h3>
+</div>
+<div id="outline-container-org323f027" class="outline-3">
+<h3 id="org323f027"><a href="https://zhuanlan.zhihu.com/p/80133952">神之編輯器 &#x2013; Emacs</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri 13:24&gt;</span></span></h3>
+</div>
+<div id="outline-container-orgf560af2" class="outline-3">
+<h3 id="orgf560af2"><a href="https://org-roam.readthedocs.io/en/latest/">Org-roam</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-11 Sat 14:38&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="roam">roam</span></span></h3>
+</div>
+<div id="outline-container-orgba7d3d6" class="outline-3">
+<h3 id="orgba7d3d6"><a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html">Organizing Notes With Refile</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-11 Sat 14:41&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="refile">refile</span></span></h3>
+</div>
+<div id="outline-container-org8fd28d7" class="outline-3">
+<h3 id="org8fd28d7"><a href="https://www.chrislockard.net/posts/2019-11-14-notes-on-configuring-mu4e-and-doom-emacs/">Configuring Doom emacs, mbsync, and mu4e for use with o365</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 20:00&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
+</div>
+<div id="outline-container-org4bca37d" class="outline-3">
+<h3 id="org4bca37d"><a href="https://www.junahan.com/post/emacs-mu4e/">https://www.junahan.com/post/emacs-mu4e/</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 21:38&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
+</div>
+<div id="outline-container-org4e16d72" class="outline-3">
+<h3 id="org4e16d72"><a href="http://linzhichu.github.io/computers/2018/02/28/org-agenda">使用Org Mode管理日常任務 </a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun 21:41&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="gtd">gtd</span></span></h3>
+</div>
+<div id="outline-container-org81c7612" class="outline-3">
+<h3 id="org81c7612"><a href="http://www.brool.com/post/using-mu4e/">Using mu4e</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-13 Mon 23:07&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
+</div>
+<div id="outline-container-orge2901fa" class="outline-3">
+<h3 id="orge2901fa"><a href="https://emacs-china.org/t/org-refile-todo/12242">org-refile 时怎么改变 TODO 状态？</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 16:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span>&#xa0;<span class="refile">refile</span>&#xa0;<span class="emacs">emacs</span></span></h3>
+</div>
+<div id="outline-container-org703afcf" class="outline-3">
+<h3 id="org703afcf"><a href="https://read01.com/zh-tw/KE5JoJ.html#.Xpgv0ZpS8-A">Emacs和Vim：神的編輯器和編輯器之神</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 18:17&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="vi">vi</span></span></h3>
+</div>
+<div id="outline-container-org03eb727" class="outline-3">
+<h3 id="org03eb727"><a href="https://opensource.com/article/20/1/emacs-cheat-sheet">6 things you should be doing with Emacs</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-16 Thu 18:17&gt;</span></span></h3>
+</div>
+<div id="outline-container-orgf5c8d88" class="outline-3">
+<h3 id="orgf5c8d88"><a href="https://www.youtube.com/watch?v=bYy90EUAh98&amp;list=PLt0cfLFa-ZYwW_5TmwbpV443lE8wwjGS2&amp;index=5&amp;t=0s">live-py mode</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-03 Sun 17:19&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="python">python</span>&#xa0;<span class="live">live</span>&#xa0;<span class="py">py</span></span></h3>
+</div>
+<div id="outline-container-org39550ef" class="outline-3">
+<h3 id="org39550ef"><a href="http://ergoemacs.org/emacs/emacs_spell_check.html">Emacs: Spell Checking</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-09 Sat 18:00&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="flyspell">flyspell</span></span></h3>
+</div>
+<div id="outline-container-org3e49ae8" class="outline-3">
+<h3 id="org3e49ae8"><a href="https://git.jeremydormitzer.com/jdormit/dotfiles/src/commit/8266a2c24a1077ff740e570dba25df7150559b1e/emacs/init.org">jdormit init.el reference</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-13 Wed 22:59&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="doom">doom</span></span></h3>
+</div>
+<div id="outline-container-org97468e5" class="outline-3">
+<h3 id="org97468e5"><a href="https://www.youtube.com/watch?v=Wy9WvF5gWYg">Org-roam-bibtex - Quick Presentation</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-24 Sun 22:43&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span>&#xa0;<span class="roam">roam</span></span></h3>
+</div>
+<div id="outline-container-org774c233" class="outline-3">
+<h3 id="org774c233"><a href="https://writequit.org/eos/eos-appearance.html#h:effd858a-d5e9-4afc-9e36-3488f7c75189">EOS: Emacs Appearance</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-05-31 Sun 16:32&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="appearance">appearance</span></span></h3>
+</div>
+<div id="outline-container-orgf264831" class="outline-3">
+<h3 id="orgf264831"><a href="https://www.gtrun.org/custom/init.html#orgf8c5edf">hlissner&rsquo;s Doom Emacs config</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-01 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="hlissner">hlissner</span>&#xa0;<span class="doom">doom</span>&#xa0;<span class="emacs">emacs</span>&#xa0;<span class="config">config</span></span></h3>
+</div>
+<div id="outline-container-orgd926729" class="outline-3">
+<h3 id="orgd926729"><a href="https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html">Orgmode for GTD</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-14 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="refile">refile</span>&#xa0;<span class="orgmode">orgmode</span></span></h3>
+</div>
+<div id="outline-container-org8766952" class="outline-3">
+<h3 id="org8766952"><a href="http://doc.norang.ca/org-mode.html#Publishing">Org Mode - Organize Your Life In Plain Text!</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-14 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span></span></h3>
+</div>
+<div id="outline-container-org1a1d136" class="outline-3">
+<h3 id="org1a1d136"><a href="https://github.com/tonsky/FiraCode/wiki/Emacs-instructions">Fira Code</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-25 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="code">code</span>&#xa0;<span class="font">font</span>&#xa0;<span class="emacs">emacs</span></span></h3>
+</div>
+<div id="outline-container-org467ec69" class="outline-3">
+<h3 id="org467ec69"><a href="http://blog.lujun9972.win/emacs-document/blog/2020/01/15/mu4e%E6%95%91%E4%BD%A0%E5%87%BAemail%E7%9A%84%E8%8B%A6%E6%B5%B7/index.html">mu4e救你出Email的苦海</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-29 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
+</div>
+<div id="outline-container-orgc2eb88f" class="outline-3">
+<h3 id="orgc2eb88f"><a href="http://hk.uwenku.com/question/p-njygriul-qn.html">使用gmail imap配置gnus</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-06-29 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="mu4e">mu4e</span></span></h3>
+</div>
+<div id="outline-container-orgb6acced" class="outline-3">
+<h3 id="orgb6acced"><a href="http://makble.com/multiple-cursor-edting-in-emacs">Multiple Cursor editing in Emacs</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-01 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Multiple">Multiple</span>&#xa0;<span class="Cursor">Cursor</span>&#xa0;<span class="mc">mc</span></span></h3>
+</div>
+<div id="outline-container-org2e1a2eb" class="outline-3">
+<h3 id="org2e1a2eb"><a href="https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/525953/">一年成為Emacs高手(像神一樣使用編輯器)</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-16 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="God">God</span></span></h3>
+</div>
+<div id="outline-container-orgea43ed7" class="outline-3">
+<h3 id="orgea43ed7"><a href="https://stackoverflow.com/questions/47561988/emacs-how-to-delete-a-line-starting-with-specific-text">Emacs: How to delete a line starting with specific text</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-16 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="flush">flush</span>&#xa0;<span class="lines">lines</span></span></h3>
+</div>
+<div id="outline-container-orge545cf4" class="outline-3">
+<h3 id="orge545cf4"><a href="https://endlessparentheses.com/beacon-never-lose-your-cursor-again.html">Beacon - Never lose your cursor again</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-20 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Beacon">Beacon</span></span></h3>
+</div>
+<div id="outline-container-orgaca8fc2" class="outline-3">
+<h3 id="orgaca8fc2"><a href="https://github.com/tecosaur/emacs-config/blob/master/config.org#splash-screen">tecosaur / emacs-config </a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Doom">Doom</span>&#xa0;<span class="configuration">configuration</span></span></h3>
+</div>
+<div id="outline-container-org3833826" class="outline-3">
+<h3 id="org3833826"><a href="https://tecosaur.github.io/emacs-config/config.html">Doom Emacs COnfiguration</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-09 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Doom">Doom</span>&#xa0;<span class="configuration">configuration</span></span></h3>
+</div>
+<div id="outline-container-orge773c69" class="outline-3">
+<h3 id="orge773c69"><a href="https://seorenn.github.io/note/doom-emacs-troubleshooting.html">Doom Emacs故障排除</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-05 Mon&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="doom">doom</span>&#xa0;<span class="error">error</span>&#xa0;<span class="upgrade">upgrade</span></span></h3>
+</div>
+<div id="outline-container-org44241f1" class="outline-3">
+<h3 id="org44241f1">[[<a href="https://emacs-china.org/t/emacs-c-x-c-f/11972">https://emacs-china.org/t/emacs-c-x-c-f/11972</a>][</h3>
+<div class="outline-text-3" id="text-org44241f1">
+<p>
+系统升级导致 emacs 不能用 C-x C-f 来进入某些目录 ]] <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-09 Fri&gt; </span></span> :dired:failed:<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org6be6929" class="outline-3">
+<h3 id="org6be6929"><a href="https://www.itdaan.com/tw/a713ed39db95836cae734a8cd73b042f">使用 emacs org-mode 畫圖</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-10 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ditaa">ditaa</span></span></h3>
+</div>
+<div id="outline-container-org4617e94" class="outline-3">
+<h3 id="org4617e94"><a href="https://www.cnblogs.com/chenfanyu/archive/2013/01/27/2878845.html#sec-2">使用 emacs org-mode 画图</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-10 Sat&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ditaa">ditaa</span>&#xa0;<span class="graphviz">graphviz</span></span></h3>
+</div>
+<div id="outline-container-org3fd9731" class="outline-3">
+<h3 id="org3fd9731"><a href="http://pragmaticemacs.com/emacs/write-code-comments-in-org-mode-with-poporg/">Pragmatic Emacs</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-14 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Pragmatic">Pragmatic</span></span></h3>
+</div>
+</div>
+<div id="outline-container-orgc8241a9" class="outline-2">
+<h2 id="orgc8241a9">Research</h2>
+<div class="outline-text-2" id="text-orgc8241a9">
+</div>
+<div id="outline-container-orgb6816f0" class="outline-3">
+<h3 id="orgb6816f0"><a href="https://blog.jethro.dev/posts/how_to_take_smart_notes_org/">How To Take Smart Notes With Org-mode</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-10 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notes">notes</span></span></h3>
+</div>
+<div id="outline-container-org9cd2736" class="outline-3">
+<h3 id="org9cd2736"><a href="http://0x100.club/wiki_emacs/gtd.html">GTD 實踐方法</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-04-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="gtd">gtd</span>&#xa0;<span class="refile">refile</span></span></h3>
+</div>
+<div id="outline-container-org1da367b" class="outline-3">
+<h3 id="org1da367b"><a href="http://amebse.nchu.edu.tw/new_page_517.htm">相關係數之介紹</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-07-12 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="coefficient">coefficient</span>&#xa0;<span class="of">of</span>&#xa0;<span class="correlation">correlation</span>&#xa0;<span class="Pearson">Pearson</span>&#xa0;<span class="Spearman">Spearman</span></span></h3>
+</div>
+<div id="outline-container-orga1e9197" class="outline-3">
+<h3 id="orga1e9197"><a href="https://www.youtube.com/watch?v=ClQp1o6qPj8&amp;t=617s">Remarkable 2 vs Onyx Boox Note Air</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-16 Fri&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="eInk">eInk</span></span></h3>
+</div>
+<div id="outline-container-orgb0dc670" class="outline-3">
+<h3 id="orgb0dc670"><a href="https://www.youtube.com/watch?v=Egj_DdGUIDI">Obsidian 教學</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-29 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Obsidian">Obsidian</span>&#xa0;<span class="notes">notes</span></span></h3>
+</div>
+</div>
+<div id="outline-container-org4cc3fa9" class="outline-2">
+<h2 id="org4cc3fa9">Nets</h2>
+<div class="outline-text-2" id="text-org4cc3fa9">
+</div>
+<div id="outline-container-org7d2130f" class="outline-3">
+<h3 id="org7d2130f"><a href="https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/691823/">掌舵Kubernetes（一）：如何起步？</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Kubernetes">Kubernetes</span></span></h3>
+</div>
+<div id="outline-container-org6ea73ec" class="outline-3">
+<h3 id="org6ea73ec"><a href="https://medium.com/@C.W.Hu/kubernetes-basic-concept-tutorial-e033e3504ec0">Kubernetes 基礎教學（一）原理介紹</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-12 Wed&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Kubernetes">Kubernetes</span></span></h3>
+</div>
+<div id="outline-container-orgf7625ce" class="outline-3">
+<h3 id="orgf7625ce"><a href="https://docs.jamf.com/technical-papers/jamf-pro/deploying-macos-upgrades/9.21/Packaging_and_Deploying_the_macOS_Installer.html">Packaging and Deploying the macOS Installer</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-27 Thu&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TNFSH">TNFSH</span>&#xa0;<span class="jamf">jamf</span>&#xa0;<span class="macos">macos</span></span></h3>
+</div>
+<div id="outline-container-org2f4d973" class="outline-3">
+<h3 id="org2f4d973"><a href="https://docs.jamf.com/best-practice-workflows/jamf-pro/deploying-wallpaper/Deploying_Wallpaper_to_Computers.html">Deploying Wallpaper to Computers</a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-09-01 Tue&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Jamf">Jamf</span>&#xa0;<span class="Wallpaper">Wallpaper</span>&#xa0;<span class="TNFSH">TNFSH</span></span></h3>
+</div>
+<div id="outline-container-org2044e8b" class="outline-3">
+<h3 id="org2044e8b"><a href="https://www.brilliantcode.net/877/apache-2-2-2-4-performance-tuning-mpm-engine/">Apache 2.2/2.4 效能調校 #01 Worker MPM </a> <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-11 Sun&gt;</span></span>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="MPM">MPM</span>&#xa0;<span class="Apache">Apache</span></span></h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Yung Chin, Yen</p>
-<p class="date">Created: 2020-08-16 Sun 20:37</p>
+<p class="date">Created: 2020-12-25 Fri 14:04</p>
 </div>
 </body>
 </html>
