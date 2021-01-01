@@ -23,7 +23,39 @@
 #+ATTR_HTML: :width 900
 #+ATTR_ORG: :width 600
 [[file:images/james-0.jpg]]
-*** 我方驗傷單
+
+* 事件陳述
+我方騎騎機車行經路口，行至路中心準備左轉時遭對方自左方車道騎乘機車撞上（路口無號誌），以對方車頭、我方車側身損毀程度判斷，合理懷疑對方嚴重超速(路口速限30，對方聲稱車速為40~50)，且對方行至路口並未減速採取必要安全措施(該路段為學區、速限30、路口有「當心兒童」三角警示號誌)，我方則有轉彎車未禮讓直行車的問題。
+* 現場狀況
+2020年11月 6日晚 7:30分
+- 肇事路口
+  路口無號誌、無待轉
+  #+CAPTION: 肇事路口
+#+LABEL: fig:Accident-Scene1
+#+name: fig:Accident-Scene1
+#+ATTR_LATEX: :width 400
+#+ATTR_HTML: :width 800
+#+ATTR_ORG: :width 400
+[[file:images/james-1.jpg]]
+- 我方行車視角
+#+CAPTION: 我方行車視角
+#+LABEL: fig:Accident-Scene2
+#+name: fig:Accident-Scene2
+#+ATTR_LATEX: :width 400
+#+ATTR_HTML: :width 800
+#+ATTR_ORG: :width 400
+[[file:images/jw.jpg]]
+- 對方來車視角
+  路口速限30
+  #+CAPTION: 對方(直行車行車視角)
+#+LABEL: fig:Accident-Scene3
+#+name: fig:Accident-Scene3
+#+ATTR_LATEX: :width 400
+#+ATTR_HTML: :width 800
+#+ATTR_ORG: :width 400
+[[file:images/james-2.jpg]]
+* 我方車損狀況及估價
+** 我方驗傷單
   #+CAPTION: 驗傷單
 #+LABEL: fig:Accident-check
 #+name: fig:Accident-check
@@ -31,7 +63,7 @@
 #+ATTR_HTML: :width 400
 #+ATTR_ORG: :width 400
 [[file:images/james01.jpg]]
-*** 我方車損
+** 我方車損
   #+CAPTION: 車損
 #+LABEL: fig:Accident-Bike
 #+name: fig:Accident-Bike
@@ -39,29 +71,9 @@
 #+ATTR_HTML: :width 400
 #+ATTR_ORG: :width 400
 [[file:images/james02.jpg]]
-*** 我方車損估價
+** 我方車損估價
 約5000，估價單待補
-* 事件陳述
-我方騎騎機車行經路口，行至路中心準備左轉時遭對方自左方車道騎乘機車撞上（路口無號誌），以對方車頭、我方車側身損毀程度判斷，合理懷疑對方嚴重超速(路口速限30，對方聲稱車速為40~50)，且對方行至路口並未減速採取必要安全措施(該路段為學區、速限30、路口有「當心兒童」三角警示號誌)，我方則有轉彎車未禮讓直行車的問題。
-* 現場狀況
-2020年11月 6日晚 7:30分
-- 路口無號誌、無待轉
-  #+CAPTION: 肇事路口1
-#+LABEL: fig:Accident-Scene1
-#+name: fig:Accident-Scene1
-#+ATTR_LATEX: :width 400
-#+ATTR_HTML: :width 400
-#+ATTR_ORG: :width 400
-[[file:images/james-1.jpg]]
-- 路口速限30
-  #+CAPTION: 肇事路口2
-#+LABEL: fig:Accident-Scene2
-#+name: fig:Accident-Scene2
-#+ATTR_LATEX: :width 400
-#+ATTR_HTML: :width 400
-#+ATTR_ORG: :width 400
-[[file:images/james-2.jpg]]
-* 對方車狀況及估價單
+* 對方車損狀況及估價
 ** 對方車損照片
 #+CAPTION: 前
 #+LABEL: fig:front
@@ -168,7 +180,6 @@
 1. 此案例中，合理的轉彎車與直行車肇責比例為何?
 2. 此案例中，我方合理的賠償金額為何?
 3. 此案例中，我方車損可要求對方賠償之合理金額為何？
-
 
 * 相關案例
 - [[https://www.mobile01.com/topicdetail.php?f=267&t=5964755][機車VS機車，T字無號誌路口車禍肇責與賠償相關詢問]]
