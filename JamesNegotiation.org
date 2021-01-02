@@ -1,5 +1,6 @@
 #+TITLE: James車禍調解事宜
-#+include: ../web.org
+
+gcss/notes.css"/>
 
 * 登記資料
 ** 登記聯單
@@ -23,7 +24,6 @@
 #+ATTR_HTML: :width 900
 #+ATTR_ORG: :width 600
 [[file:images/james-0.jpg]]
-
 * 事件陳述
 我方騎騎機車行經路口，行至路中心準備左轉時遭對方自左方車道騎乘機車撞上（路口無號誌），以對方車頭、我方車側身損毀程度判斷，合理懷疑對方嚴重超速(路口速限30，對方聲稱車速為40~50)，且對方行至路口並未減速採取必要安全措施(該路段為學區、速限30、路口有「當心兒童」三角警示號誌)，我方則有轉彎車未禮讓直行車的問題。
 * 現場狀況
@@ -135,6 +135,9 @@
 | 合計           |      |      | 54050 |
 |----------------+------+------+-------|
 #+TBLFM: @26$4=vsum(@2$4..@-1$4
+** 對方工作損失
+對方聲稱，機車為其打工(UberEat)生財工具，要求我方賠償此段時間之工作損失。
+我方預計要求對方提供事發前三個月之薪資月結單。
 * 初步分析研判表
 #+CAPTION: 初判表
 #+LABEL: fig:FirstJudgement
@@ -180,6 +183,7 @@
 1. 此案例中，合理的轉彎車與直行車肇責比例為何?
 2. 此案例中，我方合理的賠償金額為何?
 3. 此案例中，我方車損可要求對方賠償之合理金額為何？
+4. 此案例中，我方是否需要賠償對方之打工損失？若有，合理賠償比例為何？
 
 * 相關案例
 - [[https://www.mobile01.com/topicdetail.php?f=267&t=5964755][機車VS機車，T字無號誌路口車禍肇責與賠償相關詢問]]
@@ -190,3 +194,4 @@
 - [[https://sites.google.com/site/jianluefalue/du-pin-wei-hai-fang-zhi-tiao-li/chang-jian-fa-lue-wen-ti/che-huo-xiang-guan-shi-wu-jian-jie/wubiaotidewenzhang-1][應注意前方條款]]
 - [[http://b025.meiho.edu.tw/ezfiles/44/1044/img/704/350635475.pdf][直行車未禮讓已轉彎車]]
 - [[http://b025.meiho.edu.tw/ezfiles/44/1044/img/704/350635475.pdf][肇責分攤處理原則]]
+- [[https://www.tpce.org.tw/data/data5/761-1.pdf][機車車事事故故處處理理經經驗驗談談]]
